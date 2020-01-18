@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component should render app without error 1`] = `
+exports[`App component should render app with error 1`] = `
 <DocumentFragment>
   <div>
     My first component updated
