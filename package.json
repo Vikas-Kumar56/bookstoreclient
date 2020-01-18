@@ -14,7 +14,8 @@
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test --coverage",
+    "test": "react-scripts test",
+    "test:nowatch": "CI=true react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
