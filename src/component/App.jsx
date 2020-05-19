@@ -5,7 +5,7 @@ import Layout from "./layout/Layout";
 import BookContainer from "./book/BookContainer";
 
 const App = () => {
-  axios(`${baseUrl}/api/v1/books`).then(books => {
+  axios(`${baseUrl}/api/v1/books`).then((books) => {
     console.log(books);
   });
 
