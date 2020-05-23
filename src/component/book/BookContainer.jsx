@@ -5,6 +5,7 @@ import getBooksAction from "../../module/book/bookAction";
 import { getBooksSelector } from "../../module/book/bookSelector";
 import BookFilter from "./BookFilter";
 import styles from "./BookStyles";
+import BookList from "./BookList";
 
 const BookContainer = () => {
   const dispatch = useDispatch();
@@ -18,7 +19,9 @@ const BookContainer = () => {
   return (
     <Box className={classes.bookContainer}>
       <BookFilter />
-      <Box className={classes.bookList}>Here we will display all books.</Box>
+      <Box className={classes.bookList}>
+        <BookList books={books} />
+      </Box>
     </Box>
   );
 };
