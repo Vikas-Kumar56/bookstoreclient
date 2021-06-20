@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render app with error 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-2"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-3"
+    >
+      <header
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+          >
+            Book Store
+          </h6>
+        </div>
+      </header>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-77"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-84 makeStyles-bookContainer-78"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-85 makeStyles-bookFilter-79"
+        >
+          <div
+            class="MuiPaper-root makeStyles-bookFilterPaper-80 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Search Book Filters
+            </p>
+            <div
+              class="MuiBox-root MuiBox-root-86"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root"
+                data-testid="book-title-input"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                  data-shrink="false"
+                  for="book-search"
+                  id="book-search-label"
+                >
+                  Enter book title
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    id="book-search"
+                    placeholder="Enter book title"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-145 MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legendLabelled-147"
+                    >
+                      <span>
+                        Enter book title
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Search
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-181 makeStyles-bookList-81"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-192"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+              data-testid="book-loader"
+              style="width: 80%; height: 200px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
