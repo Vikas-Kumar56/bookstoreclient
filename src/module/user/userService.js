@@ -6,3 +6,6 @@ export const login = (email, password) =>
     email,
     password,
   });
+
+export const regiserApi = (user) =>
+  axios.post(`${baseUrl}/api/v1/register`, user);
