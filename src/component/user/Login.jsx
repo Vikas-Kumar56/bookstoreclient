@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react';
-import { Box, Paper, Typography, TextField, Button } from '@material-ui/core';
+import {
+  Box,
+  Paper,
+  Typography,
+  TextField,
+  Button,
+  Link,
+} from '@material-ui/core';
 import makeStyle from './LoginStyle';
 import * as yup from 'yup';
 import { useFormik } from 'formik';
@@ -51,6 +58,10 @@ const Login = () => {
     },
   });
 
+  const handleRegister = () => {
+    history.push('/register');
+  };
+
   return (
     <form autoComplete='off' noValidate onSubmit={formik.handleSubmit}>
       <Box className={classes.wrapper}>
@@ -91,6 +102,10 @@ const Login = () => {
           >
             Login
           </Button>
+          <br />
+          <Link component='button' variant='body2' onClick={handleRegister}>
+            Register
+          </Link>
         </Paper>
       </Box>
     </form>

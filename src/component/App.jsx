@@ -5,6 +5,7 @@ import BookContainer from './book/BookContainer';
 import Login from './user/Login';
 import { SnackbarProvider } from 'notistack';
 import Auth from './Auth';
+import Register from './user/Register';
 
 const App = () => {
   return (
@@ -12,8 +13,11 @@ const App = () => {
       <Router>
         <Layout>
           <Switch>
-            <Route path='/login'>
+            <Route exact path='/login'>
               <Login />
+            </Route>
+            <Route exact path='/register'>
+              <Register />
             </Route>
             <Route exact path='/'>
               <Auth>

@@ -12,7 +12,6 @@ import styles from './BookStyles';
 import BookList from './BookList';
 
 const BookContainer = () => {
-  console.log('called');
   const dispatch = useDispatch();
 
   useEffect(() => {
